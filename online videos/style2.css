@@ -1,0 +1,143 @@
+.phone{
+	width: 200px;
+	height: 412px;
+	background-color: black;
+	border-radius: 25px;
+	border: 3px solid red;
+	position: relative;
+}
+.topbar{
+	list-style: none;
+	width: 158px;
+	height: 49px;
+}
+.topbar li{
+	background-color: #848484;
+	display: inline-block;
+}
+.speaker{
+	width: 40px;
+	height: 7px;
+	border-radius: 12px;
+	position: absolute;
+	top: 20px;
+	left: 82px;
+}
+.camera{
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	position: absolute;
+	top: 19px;
+	left: 64px;
+}
+.middlebar{
+	width: 175px;
+	height: 315px;
+	background-color: white;
+	position: absolute;
+	top: 50px;
+	left: 12px;
+}
+.base{
+	position: absolute;
+	top: 265px;
+}
+.video{
+	width: 88px;
+	height: 40px;
+	position: absolute;
+	top: 14px;
+	left: 40px;
+}
+.menu{
+	width: 175px;
+	height: 24px;
+	background-color: #1e5dad;
+	position: absolute;
+	top: 60px;
+}
+.menu span{
+    color: white;
+    font-size: 9px;
+    margin-right: 120px;
+    margin-left: 10px;
+}
+.menu img{
+	position: absolute;
+	top: 5px;
+}
+.menu2{
+	width: 159px;
+	height: 26px;
+	background-color: #1e5dad;
+	position: absolute;
+	top: 84px;
+	left: 8px;
+}
+.menu2 span{
+	font-size: 9px;
+	color: white;
+	margin-left: 4px;
+}
+.search input{
+	width: 96px;
+	height: 13px;
+	position: absolute;
+	top: 5px;
+	left: 59px;
+}
+.online{
+	width: 163px;
+	height: 138px;
+	border: 1px solid gray;
+	position: absolute;
+	top: 119px;
+	left: 5px;
+}
+.online span{
+	font-size: 10px;
+	position: absolute;
+	top: 2px;
+	left: 4px;
+}
+.online iframe{
+	position: absolute;
+	top: 15px;
+	left: 3px;
+}
+.online img{
+	position: absolute;
+	top: 113px;
+	left: 4px;
+}
+.online2{
+	color: #1e5dad;
+	font-size: 8px;
+	position: absolute;
+	top: 108px;
+	left: 119px;
+}
+.online3{
+	color: gray;
+	font-size: 8px;
+	position: absolute;
+	top: 119px;
+	left: 6px;
+}
+.online4{
+	color: #1e5dad;
+	font-size: 8px;
+	position: absolute;
+	top: 119px;
+	left: 31px;
+}
+.button{
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	border:2px solid #848484;
+	position: absolute;
+	top: 372px;
+	left: 80px;
+}

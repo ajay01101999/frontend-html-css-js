@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta charset="utf-8">
+	<title>GAME</title>
+	<script type="text/javascript" src="C:\Users\abc\Desktop\jquery.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function()
+		{
+			var count=0;
+		    $('button').on('click',function()
+			{   
+				 count++;
+				 $('#score').text('SCORE:'+count)
+				 if (count<=4) {
+				 	//$('button').on('click',function(){
+                       $(this).parent().find('div').remove();
+                       var x=$(this).parent().find('span').text();
+                       var ajay=3;
+                       if(ajay==x){
+                       	  confirm('YOU FIND IT');
+                       	  setTimeout(function(){
+                       	  	history.go(0);
+
+                       	  },2000);
+                        }
+				 	//})
+				 }
+				else{
+					history.go(0);
+					confirm('YOU LOSE');
+				} 
+			});
+		});
+	</script>
+</head>
+<body>
+    <div class="contentblock">
+    	<span id="score"></span>
+    	<span class="text">FIND:<b>YUVRAJ SINGH</b></span>
+    	<div class="alinment">
+          <div class="common box1">
+       	    <img src="1.jpg">
+       	    <div></div>
+       	    <span>1</span>
+       	    <button>CLICK</button>
+          </div>
+        <div class="common box2">
+       	    <img src="2.jpg">
+       	    <div></div>
+       	     <span>2</span>
+       	    <button>CLICK</button>
+        </div>
+        <div class="common box3">
+       	  <img src="3.jpg">
+       	  <div></div>
+       	   <span>3</span>
+       	  <button id="desired">CLICK</button>
+       </div>
+       <div class="common box4">
+       	  <img src="4.jpg">
+       	  <div></div>
+       	   <span>4</span>
+       	  <button>CLICK</button>
+       </div>
+       <div class="common box5">
+       	  <img src="5.jpg">
+       	  <div></div>
+       	   <span>5</span>
+       	  <button>CLICK</button>
+       </div>
+       <div class="common box6">
+       	  <img src="6.jpg">
+       	  <div></div>
+       	   <span>6</span>
+       	  <button>CLICK</button>
+       </div>
+       <div class="common box7">
+       	  <img src="7.jpg">
+       	  <div></div>
+       	  <span>7</span>
+       	  <button>CLICK</button>
+       </div>
+       <div class="common box8">
+       	  <img src="8.jpg">
+       	  <div></div>
+       	   <span>8</span>
+       	  <button>CLICK</button>
+       </div>
+     </div>  
+    </div>
+</body>
+</html>

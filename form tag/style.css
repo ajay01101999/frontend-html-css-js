@@ -1,0 +1,77 @@
+.main{
+	width: 850px;
+	height: 540px;
+	background-image: url(4.jpg);
+	background-size: cover;
+	background-color: black;
+	opacity: 0.9;
+}
+.box1{
+	width: 315px;
+	height: 337px;
+	background-color: white;
+	opacity: 0.5;
+	position: relative;
+	top: 94px;
+	left:264px;
+}
+.content1{
+	font-size: 33px;
+	color: white;
+	position: absolute;
+	top: 33px;
+	left: 225px;
+}
+.input1{
+	width: 274px;
+	height: 30px;
+    position: absolute;
+    top: 40px;
+    left: 19px;
+    color: white;
+    background-color: black;
+}
+.input2{
+    position: absolute;
+    top: 104px;
+    left: 19px;
+}
+.input3{
+    position: absolute;
+    top: 172px;
+    left: 19px;
+}
+.input4{
+    position: absolute;
+    top: 234px;
+    left: 19px;
+}
+.content2{
+	position: absolute;
+	top: 18px;
+	left: 19px;
+}
+.content3{
+	position: absolute;
+	top: 82px;
+	left: 19px;
+}
+.content4{
+	position: absolute;
+	top: 150px;
+	left: 19px;
+}
+.content5{
+	position: absolute;
+	top: 214px;
+	left: 19px;
+}
+.button1{
+	position: absolute;
+	top: 286px;
+    left: 20px;
+    width: 100px;
+    height: 30px;
+    background-color: orange;
+    border:2px solid orange;
+}

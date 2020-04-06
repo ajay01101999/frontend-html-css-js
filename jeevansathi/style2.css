@@ -1,0 +1,417 @@
+.main{
+	width: 100%;
+	height: 620px;
+	background-image: url(8.jpg);
+}
+.box1{
+	width: 100%;
+	height: 3000px;
+	position: relative;
+	top: 40px;
+}
+.nav{
+	z-index: 100;
+	width: 70%;
+	height: 63px;
+	background-color: #334759;
+	position: sticky;
+	top: 0px; 
+	left: 195px;
+}
+.nav ul{
+	margin: 0px;
+	padding:0px;
+    display: flex;
+    list-style: none;
+}
+.nav ul li img{
+    margin-top: -23px;
+}
+.nav ul li a{
+	text-decoration: none;
+	color: white;
+}
+.nav ul li{
+	font-size: 15px;
+	width: 131px;
+	margin-right: 16px;
+	text-align: center;
+	padding-top: 23px;
+	box-sizing: border-box;
+	color: white;
+}
+.selection{
+	height: 63px;
+	background-color: red;
+	margin-left: 39px;
+}
+.selection2:hover{
+	background-color: red;
+	height: 63px;
+}
+.box2{
+	width: 366px;
+	height: 406px;
+    background-color: white;
+    position: absolute;
+    top: 112px;
+    left: 757px;
+}
+.top1{
+	width: 366px;
+	height: 54px;
+	padding-top: 7px;
+	color: white;
+	background-color: #d9475c;
+}
+.top1 b{
+	font-size: 24px;
+	margin-left: 80px;
+}
+.top1 span{
+	margin-left: 97px;
+}
+.bottom1{
+	width: 366px;
+	height: 352px;
+	background-color: white;
+}
+form{
+	padding-top: 14px;
+	box-sizing: border-box;
+}
+.content1{
+	position: absolute;
+	top: 75px;
+	left: 8px;
+}
+.content2{
+	width: 220px;
+	position: absolute;
+	top: 75px;
+	left: 125px;
+}
+.content3{
+	position: absolute;
+	top: 104px;
+	left: 8px;
+}
+.content4{
+	width: 220px;
+	position: absolute;
+	top: 104px;
+	left: 125px;
+}
+.content5{
+	position: absolute;
+	top: 134px;
+	left: 8px;
+}
+.content7{
+	position: absolute;
+	top: 161px;
+	left: 8px;
+}
+.content6{
+	width: 224px;
+	position: absolute;
+	top: 134px;
+	left: 125px;
+}
+.content8{
+	width: 56px;
+	position: absolute;
+	top: 162px;
+	left: 125px;
+}
+.content9{
+	width: 56px;
+	position: absolute;
+	top: 162px;
+	left: 196px;
+}
+.content10{
+	width: 56px;
+	position: absolute;
+	top: 162px;
+	left: 267px;
+}
+.content11{
+	position: absolute;
+	top: 190px;
+	left: 8px;
+}
+.content12{
+	position: absolute;
+	top: 190px;
+	left: 125px;
+	width: 220px;
+}
+.content13{
+	position: absolute;
+	top: 220px;
+	left: 8px;
+}
+.content14{
+	position: absolute;
+	top: 220px;
+	left: 125px;
+	width: 220px;
+}
+.content15{
+	position: absolute;
+	top: 250px;
+	left: 8px;
+}
+.content16{
+	position: absolute;
+	top: 250px;
+	left: 125px;
+	width: 220px;
+}
+.content17{
+	position: absolute;
+	top: 280px;
+	left: 8px;
+}
+.content18{
+	position: absolute;
+	top: 280px;
+	left: 125px;
+	width: 100px;
+}
+.content19{
+	position: absolute;
+	top: 280px;
+	left: 255px;
+}
+.content20{
+	position: absolute;
+	top: 280px;
+	left: 235px;
+}
+.content21{
+	position: absolute;
+	top: 310px;
+	left: 8px;
+}
+.content22{
+	position: absolute;
+	top: 310px;
+	left: 125px;
+	width: 27px;
+}
+.content23{
+	position: absolute;
+	top: 310px;
+	left: 160px;
+	width: 180px;
+}
+.content24{
+	position: absolute;
+	top: 360px;
+	left: 14px;
+}
+.content25{
+	position: absolute;
+	top: 360px;
+	left: 40px;
+	font-size: 9px;
+}
+.content26{
+	position: absolute;
+	top: 346px;
+	left: 242px;
+	width: 100px;
+	height: 50px;
+	background-color: orange;
+	border-radius: 20px;
+}
+.box3{
+	width: 100%;
+	height: 427px;
+	background-color: #d9475c;
+	position: absolute;
+	top: 579px;
+	color: white;
+}
+.box3 span{
+	font-size: 33px;
+	position: absolute;
+	top: 30px;
+	left: 300px;
+}
+.box3 iframe{
+	position: absolute;
+	top: 110px;
+	left: 187px;
+	border:14px solid #e47f8d;
+}
+.box3 h4{
+	position: absolute;
+	top: 120px;
+	left: 679px;
+}
+.button1{
+	width: 220px;
+	height: 50px;
+	background-color: #34495e;
+	position: absolute;
+	top: 250px;
+	left: 679px;
+	font-size: 20px;
+	text-align: center;
+	padding-top: 12px;
+	box-sizing: border-box;
+}
+.box4{
+	width: 100%;
+	height: 350px;
+	position: absolute;
+	top: 1005px;
+}
+#text1{
+    font-weight: bold;
+    font-size: 40px;
+    color: #d9475c;
+    position: absolute;
+    top: 20px;
+    left: 593px;
+}
+.round1{
+	list-style: none;
+	display: flex;
+	margin-top: 110px;
+	margin-left: 190px;
+}
+.round1 li{
+	width: 150px;
+	height: 150px;
+	background-color: #00bcd5;
+	border-radius: 50%;
+	text-align: center;
+	margin-right: 200px;
+	padding-top: 50px;
+	box-sizing: border-box;
+}
+.round2{
+	color: #d9475c;
+	text-align: center;
+	list-style: none;
+	display: flex;
+	position: absolute;
+	top: 210px;
+	left: 239px;
+}
+.round2 li{
+	width: 50px;
+	height: 50px;
+	background-color: white;
+	padding-top: 17px;
+	box-sizing: border-box;
+	border-radius: 50%;
+	margin-right: 300px;
+}
+.text2{
+	color: #00bcd5;
+	display: flex;
+	position: absolute;
+	top: 280px;
+    margin-left: 266px;
+    font-size: 24px;
+}
+.text2 span{
+	margin-right: 281px;
+	float: left;
+}
+#box5{
+	width: 100%;
+	height: 470px;
+	position: absolute;
+	top: 1353px;
+	background-color: #eaecee;
+}
+.text3{
+	font-size: 34px;
+	font-weight: bold;
+	position: absolute;
+    top: 20px;
+    left: 578px;
+    color: #d9475c;
+}
+.bottom2{
+	list-style: none;
+	position: absolute;
+	top: 90px;
+	left: 200px;
+}
+.bottom2 li{
+    display: inline-block;
+    margin-right: 270px;
+    margin-bottom: 60px;
+}
+.button2{
+	width: 350px;
+	height: 60px;
+	position: absolute;
+	top: 370px;
+    left: 485px;
+    background-color: #d9475c;
+    color: white;
+    text-align: center;
+    padding-top: 17px;
+    font-size: 20px;
+    box-sizing: border-box;
+}
+.box6{
+	width: 100%;
+	height: 423px;
+	position: absolute;
+	top: 1822px;
+}
+.box6 span{
+	font-size: 32px;
+	position: absolute;
+	top: 20px;
+	left: 510px;
+}
+.hover{
+	list-style: none;
+	position: absolute;
+	top: 90px;
+	left: 100px;
+	display: flex;
+} 
+.hover li{
+	margin-right: 45px;
+	overflow: hidden;
+	width: 223px;
+	height: 221px;
+	position: relative;
+}
+.hover li img:hover{
+	width: 250px;
+	height: 250px;
+}
+.image1,.image2,.image3,.image4{
+	width: 223px;
+	height: 221px;
+	transition: all 2s 0.1s;
+}
+.hover .image1:hover .slider1{
+	top: 0px;
+}
+.hover2{
+	position: absolute;
+	top: 220px;
+	list-style: none;
+	display: flex;
+}
+.slider1,.slider2,.slider3,.slider4{
+	background-color: orange;
+	width: 223px;
+	height: 221px;
+}
+.hover2 li{
+	margin-right: 45px;
+}

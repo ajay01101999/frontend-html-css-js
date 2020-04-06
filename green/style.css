@@ -1,0 +1,178 @@
+.main{
+	width:990px;
+    height: 808px;
+    background-color: #669100;
+    padding-top: 10px;
+}
+.box{
+	width: 962px;
+	height: 815px;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 14px;
+}
+.box1{
+    width: 100%;
+    height: 101px;
+    background-color: white;
+    border-radius: 10px;
+    float: left;
+    
+}
+.box2{
+	width: 272px;
+	height: 101px;
+	background-color: white;
+	border-radius: 10px;
+	display: inline-block;
+}
+.box2 img{
+	border-radius: 50%;
+	float: left;
+}
+.box2 span{
+	margin-left: 48px;
+	font-size: 10px;
+	float: right;
+	margin-right: 25px;
+	margin-top: -24px;
+}
+.box2 ul{
+    list-style: none;
+    margin-top: 10px;
+    float: left;
+    margin-top: 18px;
+}
+.box2 li{
+    display: inline-block;
+    font-size: 30px;
+    color: #669100;
+    float: right;
+    margin-right: 60px;
+    margin-top: 6px;
+    float: left;
+}
+.box3{
+	background-color: white;
+	display: inline-block;
+    width: 685px;
+    height: 101px;
+    border-radius: 10px;
+    float: right;
+}
+.nav{
+    list-style: none;
+    margin-top: 35px;
+}
+.nav li{
+	display: inline-block;
+    font-size: 20px;
+    color: #848484;
+    margin-right: 26px;
+    opacity: 1.0;
+}
+.nav li:hover{
+	color: orange;
+}
+.box4{
+	width: 100%;
+    height:347px;
+    background-image: url(nature.jpg);
+    opacity: 1.0;
+}
+.box4:hover{
+	background-position: center;
+	background-repeat: no-repeat;
+	opacity: 0.9;
+	background-image: url(leaflogo.jpg);
+	background-size: 100%;
+}
+.box5{
+	width: 100%;
+	height: 90px;
+    background-color: #6fc100;
+}
+.middle{
+	list-style: none;
+	float: left;
+}
+.middle span{
+	font-size: 20px;
+}
+.middle p{
+	font-size: 12px;
+	margin-top: 5px;
+}
+.middle li{
+    display: inline-block;
+	color: white;
+    width: 222px;
+    margin-top: -9px;
+    border-right: 1px solid white;
+    border-radius: 20px;
+}
+.box7{
+	width: 641px;
+    height: 183px;
+    color: gray;
+    font-size: 14px;
+    margin-left: 15px;
+	background-color: white;
+	display: inline-block;
+	float: left;
+}
+.nav2{
+	list-style: none;
+}
+.nav2 li{
+	display: inline-block;
+	margin-right: 235px;
+    margin-left: -36px;
+    color:#6fc100;
+    font-size: 20px; 
+}
+.nav3{
+	list-style:none;
+	margin-left: 20px;
+	}
+.nav3 li{
+	display: inline-block;
+	float: left;
+	font-size: 12px;
+}	
+.box8{
+	width: 260px;
+	height: 88px;
+	background-color: white;
+	display: inline-block;
+	margin-right: 20px;
+}
+.nav4{
+	list-style:none;
+	margin-left: 20px;
+	}
+.nav4 li{
+	display: inline-block;
+	float: left;
+	font-size: 12px;
+}	
+.box9{
+	display: inline-block;
+	width: 260px;
+	height: 88px;
+	background-color: white;
+}
+.box10{
+	display: inline-block;
+	width: 240px;
+	height: 183px;
+	background-color: white;
+	float: left;
+	text-align: center;
+	border: 1px solid gray;
+	border-bottom: 0px solid gray;
+	box-shadow: 1px 1px 5px gray;
+	box-shadow: -1px -1px 3px gray;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+}
