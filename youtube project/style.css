@@ -1,0 +1,161 @@
+.main{
+	width: 1352px;
+	height: 625px;
+    background-color: black;
+    display: inline-block;
+    }
+.parent{
+	width: 1352px;
+	height: 57px;
+	background-color: white;
+	border-bottom: 1px solid gray;
+}
+.box2 a{
+	text-decoration: none;
+}
+.box1{
+	list-style: none;
+	display: inline-block;
+}
+.box1 li{
+	display: inline-block;
+	margin-right: 31px;
+	font-family: arial black;
+	font-size: 18px;
+    
+}
+.box2{
+	display: inline-block;
+	margin-top: 6px;
+}
+.box2 li{
+	margin-right: 141px;
+	display: inline-block;
+}
+.box2 span{
+	margin-left: 40px;
+	font-family: arial black;
+	color: #2f97e7;
+}
+.parent1{
+	width: 233px;
+	height: 568px;
+	background-color: #f5f5f5;
+	display: inline-block;
+}
+.box3{
+	padding-top: 1px;
+}
+.box4{
+	list-style: none;
+	border-bottom: 1px dotted gray;
+	margin-left: -3px;
+}
+.box4 li{
+	background-color: #dddddd;
+	padding:5px;
+}
+.box4 span{
+	margin-left: 10px;
+}
+.box5{
+	margin-bottom: 15px;
+	font-size: 18px;
+	color:#111111;
+}
+.box7{
+    margin-bottom: 6px;
+	font-size: 16px;
+	color:#111111;	
+}
+.box7 li{
+	background-color: #ebebeb;
+	padding:5px;
+}
+.content{
+	margin-bottom: 16px;
+}
+
+.box6{
+	list-style: none;
+}
+.main2{
+	background-color: #fafafa;
+	width: 1119px;
+    height: 568px;
+    display: inline-block;
+    float: right;
+}
+.box8{
+	list-style: none;
+}
+.box8 li{
+	display: inline-block;
+}
+.box9{
+	margin-left: 84px;
+	width: 421px;
+	height: 243px;
+}
+.box9:hover{
+	opacity: 0.9;
+	background-repeat: no-repeat;
+	background-image: url(six.jpg);
+}
+.box10{
+	font-family: arial black;
+	margin-left: 120px;
+	font-size: 20px;
+}
+.box11{
+	list-style: none;
+	margin-left: 82px;
+}
+.box11 li{
+    display: inline-block;
+}
+.images{
+	width: 212px;
+	height: 118px;
+}
+.box12{
+	list-style: none;
+	margin-left: 82px;
+}
+.box12 li{
+	display: inline-block;
+	width: 212px;
+	height: auto;
+	font-size: 18px;
+}
+.box13{
+	list-style: none;
+	margin-left: 80px;
+}
+.box13 li{
+	display: inline-block;
+	width: 212px;
+	font-size: 17px;
+}
+.box13{
+	display: inline-block;
+	margin-top: -28px;
+}
+.box14{
+    display: inline-block;
+    margin-left: -38px;	
+    box-sizing: border-box;
+    color: #9d9d9d;
+    font-size: 13px;
+}
+.box15{
+   list-style: none;
+   margin-top: -17px;
+   margin-left: 85px;
+   font-size: 15px;
+}
+.box15 li{
+	display: inline-block;
+    width: 212px;
+    color: #9d9d9d;
+}

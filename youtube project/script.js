@@ -1,0 +1,1 @@
+document.getElementByTagName('div').style.background='red';
